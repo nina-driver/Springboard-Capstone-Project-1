@@ -8,7 +8,7 @@ from bokeh.layouts import column, row, widgetbox
 from bokeh.palettes import brewer
 from bokeh.plotting import figure
 
-def show_map(df, column, title, tip, order, low, high ):
+def show_map(df, column, title, tip, order, low, high, ticks={'0':'0'} ):
     # Input GeoJSON source that contains features for plotting
     geosource = GeoJSONDataSource(geojson = df.to_json())
 
@@ -18,7 +18,7 @@ def show_map(df, column, title, tip, order, low, high ):
     # Instantiate LinearColorMapper that linearly maps numbers in a range, into a sequence of colors.
     color_mapper = LinearColorMapper(palette = palette, low = low, high = high)
     # Define custom tick labels for color bar.
-    tick_labels = {'0': '0', '4.0':'4.0', '6.5':'6.5','8':'>8'}
+    tick_labels = ticks
     # Create color bar.
     color_bar = ColorBar(color_mapper = color_mapper,
                          label_standoff = 5,
