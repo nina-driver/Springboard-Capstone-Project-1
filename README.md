@@ -12,4 +12,4 @@ First capstone project on additional predictors for world happiness
 * [2019 World Happiness, Economic Freedom](https://nbviewer.jupyter.org/github/nina-driver/Springboard-Capstone-Project-1/blob/master/Data%20Storytelling%20-%20World%20Happiness%2C%20Economic%20Freedom.ipynb)
 
 ### Statistical Data Analysis
-* [Inferential Statistical Analysis] (https://github.com/nina-driver/Springboard-Capstone-Project-1/blob/master/Statistical%20Data%20Analysis.ipynb)
+* [Inferential Statistical Analysis](https://github.com/nina-driver/Springboard-Capstone-Project-1/blob/master/Statistical%20Data%20Analysis.ipynb)
